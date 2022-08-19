@@ -1,0 +1,89 @@
+
+
+.SearchBooksBox
+{
+  
+    padding-top: 0;
+    padding-bottom: 0;
+    background: #ffffff;
+    margin-left: 50px;
+  
+}
+#search-books {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  margin-top: 0;
+  margin-bottom: 96px;
+}
+#search-books label {
+  position: relative;
+  display: block;
+  min-height: 60px;
+  margin: 0;
+  font-weight: normal;
+  font: 14px "Arial", "Helvetica Neue", Helvetica, sans-serif;
+  line-height: 18px;
+  color: #bab9b9;
+}
+
+#search-books label span {
+  margin-bottom: 2px;
+  display: block;
+  color: #bab9b9;
+}
+#search-books .holder {
+  overflow: hidden;
+}
+#search-books span {
+  display: block;
+}
+#search-books ._placeholder {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  cursor: text;
+  padding: 10px 14px 10px 14px;
+  border-radius: 0;
+  display: block;
+}
+#search-books ._placeholder.focused {
+  opacity: 0;
+  filter: alpha(opacity=0);
+  box-shadow: none;
+}
+#search-books ._placeholder.hidden {
+  display: none;
+}
+
+#search-books .error-message,
+#search-books .empty-message {
+  height: 0;
+  overflow: hidden;
+  font: 10px "Arial";
+  color: #bab9b9;
+  -webkit-transition: 0.3s ease-in height;
+  transition: 0.3s ease-in height;
+  position: absolute;
+  right: 5px;
+  top: 2px;
+}
+#search-books .invalid .error-message,
+#search-books .empty .empty-message {
+  height: 20px;
+}
+.form-div-1,
+.form-div-2,
+.form-div-3 {
+  float: left;
+  width: 242px;
+  margin-right: 20px;
+}
+.form-div-3 {
+  margin-right: 0;
+}
+#search-books label {
+  min-height: 25px;
+}
