@@ -1,9 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~bootstrap/dist/css/bootstrap.min.css";
 @import "~font-awesome/css/font-awesome.min.css";
+@import "~ngx-toastr/toastr.css";
 @import url(//fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
 body {
-  background: #222530;
+  /* background: #222530; */
   font: 14px "Arial", "Helvetica Neue", Helvetica, sans-serif;
   line-height: 1.428571429;
   color: #bab9b9;
@@ -342,42 +343,9 @@ footer ul li a:hover img {
   border-bottom: 1px solid #d1d7bb;
   padding: 0 0 59px 0;
 }
-.newsBox {
-  margin-bottom: 57px;
-  position: relative;
-}
-.newsBox time a {
-  font: bold 13px "Arial", "Helvetica Neue", Helvetica, sans-serif;
-  color: #000000;
-  text-transform: uppercase;
-  display: inline-block;
-  margin-bottom: 13px;
-  -webkit-transition: all 0.25s ease;
-  transition: all 0.25s ease;
-}
-.newsBox time a:hover {
-  color: #819e6f;
-  -webkit-transition: all 0.25s ease;
-  transition: all 0.25s ease;
-}
-.newsBox article {
-  margin-bottom: 18px;
-}
-.newsBox:after {
-  width: 1px;
-  height: 100%;
-  background: none;
-  background: #d1d7bb;
-  position: absolute;
-  z-index: 1;
-  display: inline-block;
-  top: 0;
-  right: -49px;
-  content: " ";
-  z-index: 10;
-}
+
 .welcomeBox {
-  margin-top: 53px;
+  /* margin-top: 53px; */
   padding-bottom: 38px;
   background: #f2d13e;
   overflow: hidden;
@@ -2072,10 +2040,8 @@ footer ul li a:hover img {
   .testimonials-box > div {
     padding: 20px 20px 20px 20px;
   }
-  .commercialBox article .title1 {
-    font-size: 80px;
-    line-height: 90px;
-  }
+
+  
   #newsletter {
     display: inline-block;
     float: none;
@@ -2347,10 +2313,7 @@ footer ul li a:hover img {
   .bnBox article .caption {
     padding-left: 0;
   }
-  .commercialBox article .title1 {
-    font-size: 80px;
-    line-height: 90px;
-  }
+  
   .bracketBox {
     float: none !important;
     width: 100%;
@@ -2648,14 +2611,7 @@ footer ul li a:hover img {
   .thumb-pad3 figure img {
     width: 100%;
   }
-  .commercialBox article .title1 {
-    font-size: 50px;
-    line-height: 60px;
-  }
-  .commercialBox article .title2 {
-    font-size: 26px;
-    line-height: 30px;
-  }
+  
   .errorBox img {
     width: 100%;
   }
@@ -2743,10 +2699,7 @@ footer ul li a:hover img {
     float: none;
   }
   .videoBox,
-  .newsBox {
-    width: 100%;
-    float: none;
-  }
+ 
   .bnBox article figure {
     margin: 0;
     width: auto;
@@ -2754,14 +2707,7 @@ footer ul li a:hover img {
     margin-right: 0;
     margin-bottom: 10px;
   }
-  .commercialBox article .title1 {
-    font-size: 34px;
-    line-height: 45px;
-  }
-  .commercialBox article .title2 {
-    font-size: 20px;
-    line-height: 27px;
-  }
+  
   .class-box {
     width: 100%;
     float: none;
@@ -2910,10 +2856,7 @@ footer ul li a:hover img {
     margin-right: 0;
     margin-bottom: 10px;
   }
-  .commercialBox article .title1 {
-    font-size: 25px;
-    line-height: 30px;
-  }
+ 
   .teamBox article {
     width: 100%;
     float: none;

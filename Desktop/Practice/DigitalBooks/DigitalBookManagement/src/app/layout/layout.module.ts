@@ -5,6 +5,9 @@ import { HeaderComponent } from './header/header.component';
 import { LayoutRoutingModule } from './layout-routing.module';
 import { MainpageComponent } from './mainpage/mainpage.component';
 import { AboutusComponent } from './aboutus/aboutus.component';
+import { AuthorRoutingModule } from '../author/author-routing.module';
+import { PaymentRoutingModule } from '../payment/payment-routing.module';
+import { LandingpageComponent } from './landingpage/landingpage.component';
 
 
 
@@ -13,11 +16,15 @@ import { AboutusComponent } from './aboutus/aboutus.component';
     FooterComponent,
     HeaderComponent,
     MainpageComponent,
-    AboutusComponent
+    AboutusComponent,
+    LandingpageComponent
+
   ],
   imports: [
     CommonModule,
-    LayoutRoutingModule
+    LayoutRoutingModule,
+    AuthorRoutingModule,
+    PaymentRoutingModule
   ]
 })
 export class LayoutModule { }

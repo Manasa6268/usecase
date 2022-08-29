@@ -9,15 +9,15 @@
           <div class="menuBox clearfix">
             <nav class="navbar navbar-default navbar-static-top tm_navbar clearfix" role="navigation">
               <ul class="nav sf-menu clearfix sf-js-enabled sf-arrows">
-                <li class="active"><a href="index.html">Home</a></li>
+                <li class="active"><a [routerLink]="['/']">Home</a></li>
                 <li class="sub-menu">
                   <a routerLink="aboutus">About us<span></span></a>
                 </li>
-                <li><a routerLink="search">Search Books</a>
+                <li><a [routerLink]="['/search']">Search Books</a>
                 </li>
-                <li><button class="btn btn-primary">Add Books</button></li>
+                <li><button class="btn btn-primary" (click)="clickMe()">Add Books</button></li>
                 <li class="sub-menu">
-                  <a routerLink="aboutus" routerLinkActive="active" class="sf-with-ul">Contact us<span></span></a>
+                  <a routerLink="aboutus">Contact us<span></span></a>
                 </li>
               </ul>
 
@@ -29,6 +29,4 @@
 
     </div>
   </header>
-  <router-outlet></router-outlet>
-
 </div>
